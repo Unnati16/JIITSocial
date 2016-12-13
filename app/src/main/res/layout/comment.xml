@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root2"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/a"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/material_blue_grey_800"
+        android:text="Post your Comment"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root1"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1"
+        android:layout_weight="0.11">
+        <TextView
+            android:text="For"
+            android:textSize="20dp"
+            android:textColor="@color/material_blue_grey_800"
+
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:textColor="#DA5F6A"
+            android:hint=""
+            android:textColorHint="#DA5F6A"
+            android:ems="20"
+            android:id="@+id/editText" />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:textColor="#DA5F6A"
+        android:ems="20"
+        android:textColorHint="#DA5F6A"
+        android:hint="Post Comment"
+
+        android:id="@+id/editText3"
+        android:layout_weight="0.26" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_root12"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1"
+        android:layout_weight="0.36">
+
+        <Button
+            android:text="Post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/material_blue_grey_800"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="110dp"
+            android:id="@+id/button" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/material_blue_grey_800"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="-100dp"
+
+            android:id="@+id/button2" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

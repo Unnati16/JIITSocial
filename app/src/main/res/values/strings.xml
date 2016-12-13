@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JIIT Social</string>
+    <string-array name="year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+    </string-array>
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>Biotech</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_knuth">Knuth Programming Hub</string>
+    <string name="title_activity_robotics">Robotics Hub</string>
+    <string name="title_activity_gdg">Google Developers Group</string>
+    <string name="title_activity_osdc">OSDC</string>
+    <string name="title_activity_ieee">IEEE</string>
+    <string name="title_activity_cice">CICE</string>
+    <string name="title_activity_ribose">Ribose Hub</string>
+    <string name="title_activity_radiance">Radiance Hub</string>
+    <string name="title_activity_thespian">Thespian Hub</string>
+    <string name="title_activity_jhankaar">Jhankaar Hub</string>
+    <string name="title_activity_jyc">JYC</string>
+    <string name="title_activity_parola">Parola Literary Hub</string>
+    <string name="title_activity_pts">Page Turner Society</string>
+    <string name="title_activity_jceb">JCED</string>
+    <string name="title_activity_jeb">Jaypee Economics Hub</string>
+    <string name="title_activity_jced">JCED</string>
+    <string name="title_activity_graphicas">Graphicas Animation Hub</string>
+    <string name="title_activity_sports">Sports</string>
+    <string name="title_activity_crescendo">Crescendo</string>
+    <string name="title_activity_jpeg">Jiit Film and Photography</string>
+    <string name="title_activity_rangoli">Expressions Painting Hub</string>
+    <string name="title_activity_sample">sample</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

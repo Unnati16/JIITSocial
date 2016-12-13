@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs19">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The JIIT Sports Organisation (JSO) is an association for promoting Sport and events. Since 2010 it has annually organised a multi-sport competition at JIIT for the people of JIIT. It is open to all ideas which help us creating a better future and JIIT as better place."
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+</FrameLayout>

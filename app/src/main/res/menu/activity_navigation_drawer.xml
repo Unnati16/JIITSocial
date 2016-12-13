@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_knuth"
+            android:textStyle="bold"
+            android:title="Kunth Programming Hub" />
+        <item
+            android:id="@+id/nav_robotics"
+            android:textStyle="bold"
+            android:title="Robotics Hub" />
+        <item
+            android:id="@+id/nav_gdg"
+            android:textStyle="bold"
+            android:title="GDG" />
+        <item
+            android:id="@+id/nav_ieee"
+            android:textStyle="bold"
+            android:title="IEEE" />
+        <item
+            android:id="@+id/nav_cice"
+            android:textStyle="bold"
+            android:title="CICE" />
+        <item
+            android:id="@+id/nav_osdc"
+            android:textStyle="bold"
+            android:title="OSDC" />
+        <item
+            android:id="@+id/nav_ribose"
+            android:textStyle="bold"
+            android:title="Ribose Hub" />
+
+        <item
+            android:id="@+id/nav_parola"
+            android:textStyle="bold"
+            android:title="Parola Literary Hub" />
+        <item
+            android:id="@+id/nav_pts"
+            android:textStyle="bold"
+            android:title="Page Turner Society" />
+        <item
+            android:id="@+id/nav_jced"
+            android:textStyle="bold"
+            android:title="JCED" />
+        <item
+            android:id="@+id/nav_jeb"
+            android:textStyle="bold"
+            android:title="Jaypee Economics Hub" />
+
+        <item
+            android:id="@+id/nav_graphicas"
+            android:textStyle="bold"
+            android:title="Graphicas Animation Hub" />
+        <item
+            android:id="@+id/nav_crescendo"
+            android:textStyle="bold"
+            android:title="Crescendo Hub" />
+        <item
+            android:id="@+id/nav_dance"
+            android:textStyle="bold"
+            android:title="Jhankaar Hub" />
+        <item
+            android:id="@+id/nav_thespian"
+            android:textStyle="bold"
+            android:title="Thespian Hub" />
+        <item
+            android:id="@+id/nav_radiance"
+            android:textStyle="bold"
+            android:title="Radiance Hub" />
+        <item
+            android:id="@+id/nav_jpeg"
+            android:textStyle="bold"
+            android:title="Jiit Film and Photography" />
+        <item
+            android:id="@+id/nav_rangoli"
+            android:textStyle="bold"
+            android:title="Expressions Painting Hub" />
+        <item
+            android:id="@+id/nav_jyc"
+            android:textStyle="bold"
+            android:title="JYC" />
+        <item
+            android:id="@+id/nav_sports"
+            android:textStyle="bold"
+            android:title="Sports" />
+
+
+
+
+    </group>
+</menu>

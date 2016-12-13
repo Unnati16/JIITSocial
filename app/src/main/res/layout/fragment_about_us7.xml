@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="The Literary hub caters mainly to Debate, elocution and Turncoat but shall not be limited to these three. This shall be a forum for students of JIIT Noida to discuss things related to literary arts in and around college.Parola refers to 'word' in Italian and  was therefore chosen to be the representative of the Literary Hub
+"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+</FrameLayout>

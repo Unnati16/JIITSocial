@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to the Google Developers’ Group, Jaypee Institute of Information and Technology!.Also known as GDG JIIT NOIDA, this is a platform made for every tech-savvy who needs to quench his thirst for technology, and take him to dizzying heights. Made from a team high-spirited members,we strive to spread our love for Google and its widespread works.Our team motto is:Giving Direction to Greatness.In a short span of its up-and-coming, we have organized numerous events, ranging from hours-long orientations and interactive sessions, to week-long workshops, and periodic competitive events"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp"
+        android:textColor="?android:attr/colorMultiSelectHighlight" />
+
+</FrameLayout>

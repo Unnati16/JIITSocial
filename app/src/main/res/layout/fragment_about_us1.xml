@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Microcontroller Based Systems and Robotics Hub [µCR], JIIT, Noida.Robotics Events, Tutorials AND upcoming competitions would be updated on the group regularly.As the name suggests, µCR is the Robotics Cell of Jaypee Institute of Information Technology.We are a team of skilled students from all years who prove their worth, not just by tal  king,but by winning all sorts of Robotics competitions held in many colleges throughout the country,including IITs, DCE and NSIT."
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+
+</FrameLayout>

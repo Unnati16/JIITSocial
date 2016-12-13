@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs12">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Music gives a soul to the universe,wings to the mind,flight to the imagination and life to everything-Plato. Welcome to t JIIT's Music Hub named Crescendo. The word 'Crescendo' means a gradual increase in the loudness of music.
+    "
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+</FrameLayout>

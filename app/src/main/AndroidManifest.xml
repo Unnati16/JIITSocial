@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivangikanchan.navigation">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".knuth"
+            android:label="@string/title_activity_knuth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".robotics"
+            android:label="@string/title_activity_robotics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gdg"
+            android:label="@string/title_activity_gdg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".osdc"
+            android:label="@string/title_activity_osdc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ieee"
+            android:label="@string/title_activity_ieee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cice"
+            android:label="@string/title_activity_cice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ribose"
+            android:label="@string/title_activity_ribose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".radiance"
+            android:label="@string/title_activity_radiance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".thespian"
+            android:label="@string/title_activity_thespian"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jhankaar"
+            android:label="@string/title_activity_jhankaar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jyc"
+            android:label="@string/title_activity_jyc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".parola"
+            android:label="@string/title_activity_parola"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pts"
+            android:label="@string/title_activity_pts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jeb"
+            android:label="@string/title_activity_jeb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jced"
+            android:label="@string/title_activity_jced"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".graphicas"
+            android:label="@string/title_activity_graphicas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sports"
+            android:label="@string/title_activity_sports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".crescendo"
+            android:label="@string/title_activity_crescendo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jpeg"
+            android:label="@string/title_activity_jpeg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".rangoli"
+            android:label="@string/title_activity_rangoli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".card1" />
+        <activity android:name=".card2" />
+        <activity android:name=".card3" />
+        <activity android:name=".aboutus"></activity>
+        <activity android:name=".Subscribed1"></activity>
+        <activity android:name=".listview"></activity>
+
+    </application>
+
+</manifest>

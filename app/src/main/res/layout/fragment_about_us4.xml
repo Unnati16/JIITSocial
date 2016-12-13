@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Creativity and Innovation Cell in Electronics (CICE) is a Technical club in JIIT that aims to teach and help people in understanding the seemingly incomprehensible electronic gadgets in the world today, and also assists people in developing their own devices.It is a hubwhere we try to take innovation to a new level and actually try to implement all the ideas practically in various formats. Various lectures, workshops as well as competitions throughout the year concerning both analogue as well as digital electronics keep the calendar busy and the participants, learning.In this rapidly moving world, where everyday a new technology comes into existence, it is extremely hard to keep abreast with all the technical know-how,but if our basic concepts are intact then we can aim for the top. Innovation, Imagination and Application.
+"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+</ScrollView>

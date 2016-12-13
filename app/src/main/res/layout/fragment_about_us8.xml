@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs8">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="A mind needs books as a sword needs a whetstone, if it is to keep its edge.Welcome to JIIT's very own BOOK CLUB !!For all those avid book-lovers out there, for all once-a-while readers and for all thosewho wish to but dn't know where to begin. Members can discuss, review , suggest and exchange books with each other.There'll be fun activities like quizes, polls, creativewritings, etc. all year round.
+"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp"
+        android:id="@+id/textView12" />
+
+</FrameLayout>

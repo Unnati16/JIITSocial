@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:accessibilityLiveRegion="none"
+    android:fillViewport="true" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.shivangikanchan.navigation.Fragment.Contact17">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_light"
+            android:layout_width="357dp"
+            android:text="Oops! No contact is available."
+            android:id="@+id/textView3"
+            android:textSize="24sp"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_gravity="start"
+            android:fontFamily="casual"
+            android:layout_marginBottom="39dp"
+            android:layout_above="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4"
+            android:layout_height="204dp" />
+
+
+    </FrameLayout>
+</ScrollView>

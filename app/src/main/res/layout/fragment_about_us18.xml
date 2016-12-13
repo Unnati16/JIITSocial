@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivangikanchan.navigation.Fragment.AboutUs18">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="JIIT Youth Club is the student body of the college that believes in furthering the holistic development of the students and strives to provide a nurturing climate,a trusting environment, and a soil of celebrations. Beyond the realms of the academic curriculum, there exists a vast spectrum of activity hubs and events taking place throughout the year. JYC encourages the youth to go beyond what they thought they we are capable of, and furthers their personality. It promises, it acts, it delivers. Presenting the core team of Jaypee Youth Club for the following academic year"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:lineSpacingExtra="8sp" />
+
+</ScrollView>

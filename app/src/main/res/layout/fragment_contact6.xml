@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:accessibilityLiveRegion="none"
+    android:fillViewport="true" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.shivangikanchan.navigation.Fragment.Contact1">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <RelativeLayout
+            android:layout_width="419dp"
+            android:layout_height="672dp"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ri1"
+                android:id="@+id/imageView1"
+                android:layout_weight="0.37"
+                android:layout_alignEnd="@+id/imageView2"
+                android:layout_marginEnd="12dp" />
+
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ri2"
+                android:id="@+id/imageView2"
+                android:layout_weight="0.50"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ri3"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.37"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/imageView2"
+                />
+
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ri4"
+                android:id="@+id/imageView4"
+                android:layout_weight="0.50"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignStart="@+id/imageView3"
+                android:layout_marginTop="33dp" />
+
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abhishek Vijay"
+                android:id="@+id/textView4"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_marginTop="40dp" />
+
+
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Ashi Khare "
+                android:id="@+id/textView1"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hitesh Sethi"
+                android:id="@+id/textView2"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginTop="39dp"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Anas Siddique"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginBottom="39dp"
+                android:layout_above="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

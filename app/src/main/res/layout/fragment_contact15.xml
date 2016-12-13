@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:accessibilityLiveRegion="none"
+    android:fillViewport="true" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.shivangikanchan.navigation.Fragment.Contact1">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <RelativeLayout
+            android:layout_width="419dp"
+            android:layout_height="1081dp"
+            android:padding="16dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra1"
+                android:id="@+id/imageView1"
+                android:layout_weight="0.37"
+                android:layout_alignEnd="@+id/imageView2"
+                android:layout_marginEnd="12dp" />
+
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra2"
+                android:id="@+id/imageView2"
+                android:layout_weight="0.50"
+                android:layout_marginTop="17dp"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra3"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.37"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_toStartOf="@+id/textView1" />
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra5"
+                android:id="@+id/imageView5"
+                android:layout_weight="0.50"
+                android:layout_marginTop="34dp"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignStart="@+id/imageView4" />
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra4"
+                android:id="@+id/imageView4"
+                android:layout_weight="0.50"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignStart="@+id/imageView3"
+                android:layout_marginTop="33dp" />
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra6"
+                android:id="@+id/imageView6"
+                android:layout_weight="0.50"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="46dp" />
+
+
+            <ImageView
+                android:layout_width="171dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/ra7"
+                android:id="@+id/imageView7"
+                android:layout_weight="0.50"
+                android:layout_below="@+id/imageView6"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_marginTop="33dp" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devyaanee Singh"
+                android:id="@+id/textView4"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_marginTop="40dp" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noopur Nagpal"
+                android:id="@+id/textView6"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:layout_marginTop="39dp"
+                android:fontFamily="casual"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sparsh Walia"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginTop="33dp"
+                android:layout_alignTop="@+id/imageView5"
+                android:layout_alignStart="@+id/textView6" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Sakshi Diman "
+                android:id="@+id/textView1"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ishita Bhatnagar"
+                android:id="@+id/textView2"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginTop="39dp"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView2" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:text="Rohan Bharti"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_marginBottom="39dp"
+                android:layout_above="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shreyansh Jain"
+                android:id="@+id/textView7"
+                android:textSize="18sp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:layout_gravity="start"
+                android:fontFamily="casual"
+                android:layout_alignTop="@+id/imageView7"
+                android:layout_toEndOf="@+id/imageView7"
+                android:layout_marginTop="40dp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>
